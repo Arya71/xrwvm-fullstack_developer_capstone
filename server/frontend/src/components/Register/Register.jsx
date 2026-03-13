@@ -1,18 +1,59 @@
 import React from "react";
 
 function Register() {
+
   return (
     <div>
 
       <h2>Sign-up</h2>
 
-      <input placeholder="Username"/>
-      <input placeholder="First Name"/>
-      <input placeholder="Last Name"/>
-      <input placeholder="Email"/>
-      <input placeholder="Password"/>
+      <form>
 
-      <button>Register</button>
+        <input
+          type="text"
+          placeholder="Username"
+          name="username"
+        />
+
+        <br/>
+
+        <input
+          type="text"
+          placeholder="First Name"
+          name="first_name"
+        />
+
+        <br/>
+
+        <input
+          type="text"
+          placeholder="Last Name"
+          name="last_name"
+        />
+
+        <br/>
+
+        <input
+          type="email"
+          placeholder="email"
+          name="email"
+        />
+
+        <br/>
+
+        <input
+          type="password"
+          placeholder="Password"
+          name="password"
+        />
+
+        <br/>
+
+        <button type="submit">
+          Register
+        </button>
+
+      </form>
 
     </div>
   );
